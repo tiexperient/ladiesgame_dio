@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-image: url(../img/background.jpg);
+}
+
+.grid{
+    text-align: center;
+    width: 50px;
+    background: rgb(0, 0, 0); /*Cor do background*/
+    color: rgb(0, 0, 0); /*Cor da fonte*/
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.fundo{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFF;
+    background: #000;
+    opacity: 0.9;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Um estilo para duas classes*/
+.jogador, .vencedor{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    margin: .25rem .125rem;
+    width: 100px;
+    height: 35px;
+    background-color: #212529;
+    border-color: #212529;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    cursor: pointer;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: inherit;
+}
